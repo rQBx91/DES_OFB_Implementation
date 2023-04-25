@@ -1,7 +1,11 @@
-## DES OFB implementation
+# DES OFB implementation
+
+OFB encryption mode using DES implemented in Python.
+
 Project done as part of Network Security course at Urmia University.
 
-### Implementation details:
+## Implementation details
+
 ```plaintext
     - key size: 16
     - iv size: 16
@@ -10,11 +14,13 @@ Project done as part of Network Security course at Urmia University.
 ```
 
 Install project requirements:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 Run the project:
+
 ```bash
 python main.py
 ```
